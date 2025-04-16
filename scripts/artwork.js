@@ -85,12 +85,16 @@ const galleries = {
     { id: "ill7", src: "../assets/images/illustration/ill7.png"},
   ],
   work: [
-    { id: "work1", src: "../assets/images/work/work1.png"},
-    { id: "work2", src: "../assets/images/work/work2.png"},
-    { id: "work10", src: "../assets/images/work/work10.png"},
-    { id: "work11", src: "../assets/images/work/work11.png"},
-    { id: "work12", src: "../assets/images/work/work12.png"},
-    { id: "work13", src: "../assets/images/work/work13.png"},
+    { id: "work1", src: "../assets/images/work/work1.jpg"},
+    { id: "work14", src: "../assets/images/work/work14.jpg"},
+    { id: "work15", src: "../assets/images/work/work15.jpg"},
+    { id: "work2", src: "../assets/images/work/work2.jpg"},
+    { id: "work10", src: "../assets/images/work/work10.jpg"},
+    { id: "work11", src: "../assets/images/work/work11.jpg"},
+    { id: "work13", src: "../assets/images/work/work13.jpg"},
+    { id: "work16", src: "../assets/images/work/work16.jpg"},
+    { id: "work12", src: "../assets/images/work/work12.jpg"},
+    { id: "work17", src: "../assets/images/work/work17.jpg"},
     { id: "work3", src: "../assets/images/work/work3.png"},
     { id: "work4", src: "../assets/images/work/work4.png"},
     { id: "work5", src: "../assets/images/work/work5.png"},
@@ -98,6 +102,7 @@ const galleries = {
     { id: "work7", src: "../assets/images/work/work7.png"},
     { id: "work8", src: "../assets/images/work/work8.png"},
     { id: "work9", src: "../assets/images/work/work9.png"},
+    
   ]
 
 };
