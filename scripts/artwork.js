@@ -89,6 +89,8 @@ const galleries = {
     { id: "work2", src: "../assets/images/work/work2.png"},
     { id: "work10", src: "../assets/images/work/work10.png"},
     { id: "work11", src: "../assets/images/work/work11.png"},
+    { id: "work12", src: "../assets/images/work/work12.png"},
+    { id: "work13", src: "../assets/images/work/work13.png"},
     { id: "work3", src: "../assets/images/work/work3.png"},
     { id: "work4", src: "../assets/images/work/work4.png"},
     { id: "work5", src: "../assets/images/work/work5.png"},
@@ -114,15 +116,20 @@ const rightArrow = document.getElementById("right-arrow");
 
 // Populate Image and Update Arrow Visibility
 function populateImage() {
+  console.log("hi");
   if (currentIndex === -1 || currentIndex >= currentGallery.length) {
     console.error("Image not found or index out of bounds!");
     return;
   }
+  // console.log("Image found");
 
   // Update image source
   const currentImage = currentGallery[currentIndex];
   imageElement.src = currentImage.src;
   imageElement.alt = `Artwork ${currentImage.id}`;
+  // console.log(imageElement);
+  // console.log(imageElement.src);
+
 
   // Update arrow visibility
   updateArrowVisibility();
