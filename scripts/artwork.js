@@ -85,6 +85,12 @@ const galleries = {
     { id: "ill7", src: "../assets/images/illustration/ill7.png"},
   ],
   work: [
+    { id: "work18", src: "../assets/images/work/work18.jpg"},
+    { id: "work19", src: "../assets/images/work/work19.jpg"},
+    { id: "exhibit3", src: "../assets/images/work/exhibit3.jpg"},
+    { id: "exhibit5", src: "../assets/images/work/exhibit5.jpg"},
+    { id: "exhibit4", src: "../assets/images/work/exhibit4.jpg"},
+    { id: "exhibit1", src: "../assets/images/work/exhibit1.jpg"},
     { id: "work1", src: "../assets/images/work/work1.jpg"},
     { id: "work14", src: "../assets/images/work/work14.jpg"},
     { id: "work15", src: "../assets/images/work/work15.jpg"},
