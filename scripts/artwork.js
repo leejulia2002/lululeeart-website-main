@@ -257,22 +257,24 @@ function setActivePage() {
   const illustrationLink = document.getElementById("illustration-link");
   const booksPrintsLink = document.getElementById("books-prints-link");
 
-  // Remove existing active classes
-  [workLink, illustrationLink, booksPrintsLink].forEach(link => link.classList.remove("active"));
+  // Remove existing active classes only from links that exist
+  [workLink, illustrationLink, booksPrintsLink].forEach(link => {
+    if (link) link.classList.remove("active");
+  });
 
   // Set active based on gallery name
   switch (galleryName) {
     case "work":
-      workLink.classList.add("active");
+      if (workLink) workLink.classList.add("active");
       break;
     case "illustration":
-      illustrationLink.classList.add("active");
+      if (illustrationLink) illustrationLink.classList.add("active");
       break;
     case "prints":
-      booksPrintsLink.classList.add("active");
+      if (booksPrintsLink) booksPrintsLink.classList.add("active");
       break;
     default:
-      break; // No active link for other galleries
+      break;
   }
 }
 
